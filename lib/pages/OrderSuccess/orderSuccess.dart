@@ -41,7 +41,7 @@ class OrderSuccess extends StatelessWidget {
                       Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
                         return const Mainpage(
-                          initialIndex: 1,
+                          initialIndex: 2,
                         );
                       }));
                     },

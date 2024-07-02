@@ -68,7 +68,7 @@ class AccountPage extends StatelessWidget {
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
                 return const Mainpage(
-                  initialIndex: 1,
+                  initialIndex: 2,
                 );
               }));
             },

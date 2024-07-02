@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie/pages/SearchMovie/searchMovie.dart';
 import 'package:movie/pages/account/account.dart';
 import 'package:movie/pages/bookingHistory/bookingHistory.dart';
 import 'package:movie/pages/homePage/homePage.dart';
@@ -29,6 +30,7 @@ class _MainpageState extends State<Mainpage> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Homepage(),
+    SearchMoviePage(),
     BookHistoryPage(),
     NewPage(),
     AccountPage(),
@@ -54,6 +56,10 @@ class _MainpageState extends State<Mainpage> {
             BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: 'Trang Chủ',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.search),
+              label: 'Tìm Kiếm',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.category_outlined),

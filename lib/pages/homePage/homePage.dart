@@ -100,7 +100,9 @@ class _HomepageState extends State<Homepage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             HomeHeader(size: size),
-            searchBar(size: size),
+            const SizedBox(
+              height: 20,
+            ),
             SizedBox(
               height: size.height * 0.7,
               child: Stack(

@@ -20,7 +20,7 @@ class HomeHeader extends StatelessWidget {
             const Text('Find Your Best \n Movie',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 20,
+                  fontSize: 23,
                 )),
             CircleAvatar(
               radius: size.height / 24,
