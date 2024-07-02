@@ -40,8 +40,7 @@ class _CategoryState extends State<Category> {
                     : const BoxDecoration(color: Colors.transparent),
                 child: Text(
                   genres[index],
-                  style: const TextStyle(
-                      fontWeight: FontWeight.bold, color: Colors.white),
+                  style: const TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
             );

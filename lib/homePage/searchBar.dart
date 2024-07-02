@@ -42,6 +42,22 @@ class searchBar extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+              margin: const EdgeInsets.only(left: 16),
+              width: size.width / 8,
+              height: size.height / 10,
+              decoration: BoxDecoration(
+                gradient: const LinearGradient(
+                  colors: [
+                    Colors.blue,
+                    Colors.blue,
+                  ],
+                ),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              // child: Image.asset('assets/images/avata.png'),
+              child: const Icon(Icons.menu),
+            )
           ],
         ),
       ),
